@@ -1,0 +1,89 @@
+body {
+	background: rgba(221,182,198,65%);
+	color: rgba(107,89,29);
+	text-align: center; 
+}
+
+div{
+display:block;
+}
+
+#introduction{
+	border-top: 15px ;
+	border-right: 10px  ;
+	border-bottom: 15px ;
+	border-left: 10px ;
+	padding-bottom:20px;
+	margin-right:90px;
+	margin-left:90px;
+}
+
+.box-design{
+	background: white;
+	padding: 40px;
+	margin-left:70px;
+	margin-right:70px;
+	border-radius: 45px;
+	box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+#reseaux-sociaux{
+	padding: 5px;
+	margin-left:70px;
+	margin-right:70px;
+	margin-top:20px;
+	margin-bottom:10px;
+}
+
+h1 {
+	color: rgba(128, 0, 2); 
+	font-family: 'ZCOOL XiaoWei', serif;
+	font-size: 42px;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 10px;
+}
+p {
+	font-family: 'ZCOOL XiaoWei', serif;
+	text-align: center;
+	line-height: 1.8;
+	margin: 20px 0px 40px 0px;
+}
+
+b {
+	text-align: center; 
+	font-family: 'ZCOOL XiaoWei', serif;
+	font-weight: bold;
+	color: #e26241;
+}
+
+
+h2 {text-align: center; 
+	font-family: 'ZCOOL XiaoWei', serif;
+	font-weight: bold;
+	color: #e26241;
+ }
+
+ a {color: rgba(128, 0, 2, 80%); 
+ 	text-decoration: none;
+	font-weight: bold;   
+ }
+
+@media (max-width: 960px) {
+	.container{
+		width:700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container{
+		width:500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container{
+		width:300px;
+	}
+}
+
